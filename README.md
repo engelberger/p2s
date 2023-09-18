@@ -1,6 +1,8 @@
-# Paper to Audiopaper
+# Paper to Audiopaper 📝🔊
 
-Welcome to the Paper to Audiopaper documentation. This project aims to convert scientific PDF papers into audio format using a combination of PDF extraction, LaTeX formula translation, and text-to-speech technologies. 
+Welcome to the Paper to Audiopaper project! This project aims to convert scientific PDF papers into audio format using a combination of PDF extraction, LaTeX formula translation, and text-to-speech technologies. 
+
+:warning: **Please note that this is a work in progress and may not work perfectly for all papers.** 
 
 The primary script used for this process is `paper_to_audiopaper.ipynb`, which provides a series of functions to handle the paper conversion process.
 
@@ -8,9 +10,16 @@ The primary script used for this process is `paper_to_audiopaper.ipynb`, which p
 
 ## Features
 
-- PDF Extraction: Converts a PDF file or an arXiv paper into a markdown file.
-- LaTeX Translation: Translates LaTeX formulas into plain English.
-- Text-to-Speech: Converts the processed text into speech in WAV format.
+- PDF Extraction: Converts a PDF file or an arXiv paper into a markdown file. 📄
+- LaTeX Translation: Translates LaTeX formulas into plain English. 📝➡️🗣️
+- Text-to-Speech: Converts the processed text into speech in WAV format. 🗣️➡️🔊
+
+## Future Work (TODO)
+
+- [ ] Support for local inference with [ctransformers](https://github.com/marella/ctransformers) Llama2.
+- [ ] Add support to other TTS options like [Coqui TTS](https://github.com/coqui-ai/TTS).
+- [ ] Improve the user experience in the Colab notebook (better markdown interface).
+- [ ] Save to google drive
 
 ## Functions
 Here is a brief explanation of the main functions used in the script:
@@ -73,4 +82,4 @@ pdf_to_speech("2309.07124", is_arxiv_id=True)
 
 This will download the paper from arXiv, convert it to markdown, translate the LaTeX formulas, and finally convert the text to speech.
 
-We hope you find this script useful for your research and study needs. Enjoy listening to your papers!
+We hope you find this script useful for your research and study needs. Enjoy listening to your papers! 🎧📚
