@@ -29,7 +29,7 @@ Here is a brief explanation of the main functions used in the script:
 This function converts a PDF file or an arXiv paper to a markdown file. The resulting markdown file is saved in a specified output directory.
 
 ```python
-pdf_to_markdown(input: Union[str, bool], output_dir: str = "outputs", is_arxiv_id: bool = False, nougat_path: str = "/home/iwe30/anaconda3/envs/nougat/bin")
+pdf_to_markdown(input: Union[str, bool], output_dir: str = "outputs", is_arxiv_id: bool = False, nougat_path: str = "/usr/local/bin")
 ```
 
 ### `translate()`
