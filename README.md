@@ -6,7 +6,7 @@ Welcome to the Paper to Audiopaper project! This project aims to convert scienti
 
 The primary script used for this process is `paper_to_audiopaper.ipynb`, which provides a series of functions to handle the paper conversion process.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/engelberger/p2s/blob/main/paper_to_audiopaper.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/engelberger/p2s/blob/main/paper_to_audiopaper_colab.ipynb)
 
 ## Features
 
